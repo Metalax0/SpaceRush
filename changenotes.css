@@ -1,0 +1,102 @@
+*
+{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+
+body
+{
+	background-image: url('space_bg2.jfif');
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-color: #464646;
+}
+
+
+#main_container
+{
+	position: relative;
+	top: 10%;
+  	width: 100%;
+}
+
+#container
+{	
+	overflow: auto;
+	border:10px solid orange;
+	width: 60%;
+}
+
+#text_main
+{
+	font:bold 3.5vw "Comic Sans MS";
+	color:white ;
+	text-align: center;
+	line-height: 300%;
+	margin-left:5%;
+}
+
+#text
+{
+	font:italic 2.0vw "Comic Sans MS";
+	color:white;
+	line-height: 250%;
+	margin-left: 5%;
+}
+
+span
+{
+	border: 2px dashed white;
+	margin: 1%;
+	padding: 8px;
+}
+
+button
+{
+	margin-top: 10%;
+	font: 2.0vw "Comic Sans MS";
+	color: white; 
+	background: transparent; 
+	border: 2px solid white;
+	border-radius: 6px; 
+}
+
+button:hover
+{
+	background-color: #008CBA;      
+	color: white;
+}
+
+#button1
+{
+	margin-left:20%;
+}
+
+#button2
+{
+	margin-left: 10%;
+}
+
+a
+{
+	color: #0099CC;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+hr
+{
+	border: 2px solid orange;
+	width:75%;
+	margin-top: -5%;
+	margin-bottom: 3%;
+}
+

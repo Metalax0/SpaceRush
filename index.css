@@ -1,0 +1,108 @@
+*
+{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+
+body
+{
+	background-image: url('space_bg2.jfif');
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-color: #464646;
+}
+
+
+#main_container
+{
+	position: relative;
+	top: 12%;
+  	width: 100%;
+}
+
+#container
+{	
+	overflow: auto;
+	border: 0.8vw solid orange;
+	width: 60%;
+}
+
+#col_left
+{
+	float: left;
+	width: 48%;
+	/*height: 60%;*/
+	border-right: 0.8vw solid orange;
+}
+
+#col_right
+{
+	overflow: hidden;
+	float: right;
+	width:50%;
+}
+
+#img_right
+{
+	width: 100%;
+}
+
+#text_main
+{
+	font:bold 2.2vw "Comic Sans MS";
+	color:white ;
+	text-align: center;
+	line-height: 500%;
+	margin-left:5%;
+}
+
+#version
+{
+	color:white;
+	margin-top: 20%;
+	margin-bottom: 6%;
+	margin-left: 11%;
+	font:bold 1.1vw "Comic Sans MS";
+
+}
+
+button
+{
+	margin-top: 10%;
+	font: 2.0vw "Comic Sans MS";
+	color: #0099CC; 
+	background: transparent; 
+	border: 2px solid #0099CC;
+	border-radius: 6px; 
+	margin-left: 10%;
+}
+
+button:hover
+{
+	background-color: #008CBA;      
+	color: white;
+	margin-left: 15%;
+}
+
+a
+{
+	color: #0099CC;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+hr
+{
+	border: 2px solid orange;
+	width:75%;
+	margin-top: -7%;
+}
+
